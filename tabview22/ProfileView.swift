@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ProfileView: View {
     @State var username:String=""
-    @State var usernumber:String=""
-    @State var userpoints:String=""
-
+    
+    
+    
     var body: some View
     
     {
@@ -20,8 +20,8 @@ struct ProfileView: View {
                 .ignoresSafeArea()
             Image("pic2")
                 .resizable()
-                .frame(width: 400.0, height: 361.0)
-                .position(x:177, y:85)
+                .frame(width: 450.0, height: 450.0)
+                .position(x:170, y:100)
                 .padding()
             Image("pic4")
                 .resizable()
@@ -41,33 +41,48 @@ struct ProfileView: View {
                 .frame(width: 35.0, height: 35.0)
                 .position(x:155, y:216)
             
-            Button("Exit") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                
-            }
-            .frame(width: 110.0, height: 46.0)
             
-                .background(Color(red: 0.424, green: 0.589, blue: 0.582)).position(x:120, y: 542)
             
-                .foregroundColor(.white)
-                .font(.headline)
-                .bold()
-                .cornerRadius(30)
+            
+            
+            
+            
+            Button(action: {
                 
+            }, label: {
+                Text("Logout")                  .underline()
                 
-                
-            Button("Logout") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                
-            }.padding()
-                .position(x:224, y: 542)
+            })   .padding()
+                .position(x:246, y: 508)
                 .underline()
                 .foregroundColor(.white)
                 .colorMultiply(/*@START_MENU_TOKEN@*/Color(red: 0.424, green: 0.589, blue: 0.582)/*@END_MENU_TOKEN@*/)
-                .underline()
+            
                 .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
-                .underline()
+            
+            Button(action: {
                 
+            }, label: {
+                Text("Exit")
+                    .padding()
+                    .foregroundColor(.white)
+                    .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
+            })
+            .frame(width: 120.0, height: 50.0)
+            .background(Color(red: 0.424, green: 0.589, blue: 0.582))
+                .cornerRadius(20)
+                .position(x:129, y: 508)
+                
+                
+            
+                
+            
+            
+            
+            
+            
+            
+            
             
             HStack {
                 
@@ -78,29 +93,31 @@ struct ProfileView: View {
                         .position(x:191, y:278)
                     
                     TextField("Name",text: $username)
-                        .position(x:199, y:196)
-                    
-                    
-                        Image("pic5")
-                            .resizable()
-                            .frame(width: 30.0, height: 30.0)
-                            .position(x:67,y:115)
-                            Spacer()
-                    
-                        Image("rec")
-                            .resizable()
-                            .frame(width: 300.0, height: 50.0)
-                            .position(x:191, y:97)
+                        .position(x:248, y:196)
+                        .frame(width: 300.0)
                         
-                        Text("0501234567")
-                            .position(x:150, y:15)
-                            .foregroundColor(.gray)
-                        Image("pic6")
-                            .resizable()
-                            .frame(width: 30.0, height: 30.0)
-                            .position(x:51,y:-83)
-                            .padding()
-                         Image("rec")
+                    
+                    
+                    Image("pic5")
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                        .position(x:67,y:116)
+                    Spacer()
+                    
+                    Image("rec")
+                        .resizable()
+                        .frame(width: 300.0, height: 50.0)
+                        .position(x:191, y:97)
+                    
+                    Text("0501234567")
+                        .position(x:150, y:15)
+                        .foregroundColor(.gray)
+                    Image("pic6")
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                        .position(x:51,y:-81)
+                        .padding()
+                    Image("rec")
                         .resizable()
                         .frame(width: 300.0, height: 50.0)
                         .position(x:191, y:-82)
@@ -111,11 +128,11 @@ struct ProfileView: View {
                     Image("pic7")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
-                        .position(x:51,y:-261)
+                        .position(x:51,y:-260)
                         .padding()
                     
                 }; Spacer()
-                .padding()
+                    .padding()
                 
             }
             .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.424, green: 0.589, blue: 0.582)/*@END_MENU_TOKEN@*/)
@@ -129,5 +146,6 @@ struct ProfileView: View {
             ProfileView()
         }
     }
+    
     
 }
