@@ -17,6 +17,12 @@
 		42F06C1C290AA8130004F10D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F06C1B290AA8130004F10D /* ProfileView.swift */; };
 		42F06C1E290AB05F0004F10D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F06C1D290AB05F0004F10D /* HomeView.swift */; };
 		42F06C20290AB0840004F10D /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F06C1F290AB0840004F10D /* CommunityView.swift */; };
+		E6F29AED2913E2BC00BCA594 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F29AEC2913E2BC00BCA594 /* PopUpWindow.swift */; };
+		E6F29AEF2913E88300BCA594 /* CummCumment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F29AEE2913E88300BCA594 /* CummCumment.swift */; };
+		E6F9308D2911561200E78D91 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9308C2911561200E78D91 /* SplashScreenView.swift */; };
+		E6F9308F2911565600E78D91 /* ContentView0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9308E2911565600E78D91 /* ContentView0.swift */; };
+		E6F930932911570A00E78D91 /* ContentViewLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F930922911570A00E78D91 /* ContentViewLog.swift */; };
+		E6F930972911578C00E78D91 /* Verivication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F930962911578C00E78D91 /* Verivication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42F06BEE290A9F390004F10D /* tabview22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabview22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F06BEE290A9F390004F10D /* iHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F06BF1290A9F390004F10D /* tabview22App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabview22App.swift; sourceTree = "<group>"; };
 		42F06BF3290A9F390004F10D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42F06BF5290A9F3B0004F10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42F06BF8290A9F3B0004F10D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		42F06BFE290A9F3B0004F10D /* tabview22Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabview22Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F06BFE290A9F3B0004F10D /* iHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F06C02290A9F3B0004F10D /* tabview22Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabview22Tests.swift; sourceTree = "<group>"; };
-		42F06C08290A9F3B0004F10D /* tabview22UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabview22UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F06C08290A9F3B0004F10D /* iHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F06C0C290A9F3B0004F10D /* tabview22UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabview22UITests.swift; sourceTree = "<group>"; };
 		42F06C0E290A9F3B0004F10D /* tabview22UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabview22UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		42F06C1B290AA8130004F10D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		42F06C1D290AB05F0004F10D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		42F06C1F290AB0840004F10D /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		E6F29AEC2913E2BC00BCA594 /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		E6F29AEE2913E88300BCA594 /* CummCumment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CummCumment.swift; sourceTree = "<group>"; };
+		E6F9308C2911561200E78D91 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E6F9308E2911565600E78D91 /* ContentView0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView0.swift; sourceTree = "<group>"; };
+		E6F930922911570A00E78D91 /* ContentViewLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewLog.swift; sourceTree = "<group>"; };
+		E6F930962911578C00E78D91 /* Verivication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verivication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +102,9 @@
 		42F06BEF290A9F390004F10D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42F06BEE290A9F390004F10D /* tabview22.app */,
-				42F06BFE290A9F3B0004F10D /* tabview22Tests.xctest */,
-				42F06C08290A9F3B0004F10D /* tabview22UITests.xctest */,
+				42F06BEE290A9F390004F10D /* iHealth.app */,
+				42F06BFE290A9F3B0004F10D /* iHealthTests.xctest */,
+				42F06C08290A9F3B0004F10D /* iHealthUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +113,14 @@
 			isa = PBXGroup;
 			children = (
 				42F06BF1290A9F390004F10D /* tabview22App.swift */,
+				E6F9308C2911561200E78D91 /* SplashScreenView.swift */,
+				E6F9308E2911565600E78D91 /* ContentView0.swift */,
+				E6F930922911570A00E78D91 /* ContentViewLog.swift */,
+				E6F930962911578C00E78D91 /* Verivication.swift */,
 				42F06BF3290A9F390004F10D /* ContentView.swift */,
 				42F06C1F290AB0840004F10D /* CommunityView.swift */,
+				E6F29AEE2913E88300BCA594 /* CummCumment.swift */,
+				E6F29AEC2913E2BC00BCA594 /* PopUpWindow.swift */,
 				42F06C1D290AB05F0004F10D /* HomeView.swift */,
 				42F06C1B290AA8130004F10D /* ProfileView.swift */,
 				42F06BF5290A9F3B0004F10D /* Assets.xcassets */,
@@ -139,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42F06BED290A9F390004F10D /* tabview22 */ = {
+		42F06BED290A9F390004F10D /* iHealth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42F06C12290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22" */;
+			buildConfigurationList = 42F06C12290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealth" */;
 			buildPhases = (
 				42F06BEA290A9F390004F10D /* Sources */,
 				42F06BEB290A9F390004F10D /* Frameworks */,
@@ -151,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = tabview22;
+			name = iHealth;
 			productName = tabview22;
-			productReference = 42F06BEE290A9F390004F10D /* tabview22.app */;
+			productReference = 42F06BEE290A9F390004F10D /* iHealth.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42F06BFD290A9F3B0004F10D /* tabview22Tests */ = {
+		42F06BFD290A9F3B0004F10D /* iHealthTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42F06C15290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22Tests" */;
+			buildConfigurationList = 42F06C15290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealthTests" */;
 			buildPhases = (
 				42F06BFA290A9F3B0004F10D /* Sources */,
 				42F06BFB290A9F3B0004F10D /* Frameworks */,
@@ -169,14 +187,14 @@
 			dependencies = (
 				42F06C00290A9F3B0004F10D /* PBXTargetDependency */,
 			);
-			name = tabview22Tests;
+			name = iHealthTests;
 			productName = tabview22Tests;
-			productReference = 42F06BFE290A9F3B0004F10D /* tabview22Tests.xctest */;
+			productReference = 42F06BFE290A9F3B0004F10D /* iHealthTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42F06C07290A9F3B0004F10D /* tabview22UITests */ = {
+		42F06C07290A9F3B0004F10D /* iHealthUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42F06C18290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22UITests" */;
+			buildConfigurationList = 42F06C18290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealthUITests" */;
 			buildPhases = (
 				42F06C04290A9F3B0004F10D /* Sources */,
 				42F06C05290A9F3B0004F10D /* Frameworks */,
@@ -187,9 +205,9 @@
 			dependencies = (
 				42F06C0A290A9F3B0004F10D /* PBXTargetDependency */,
 			);
-			name = tabview22UITests;
+			name = iHealthUITests;
 			productName = tabview22UITests;
-			productReference = 42F06C08290A9F3B0004F10D /* tabview22UITests.xctest */;
+			productReference = 42F06C08290A9F3B0004F10D /* iHealthUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42F06BE9290A9F390004F10D /* Build configuration list for PBXProject "tabview22" */;
+			buildConfigurationList = 42F06BE9290A9F390004F10D /* Build configuration list for PBXProject "iHealth" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42F06BED290A9F390004F10D /* tabview22 */,
-				42F06BFD290A9F3B0004F10D /* tabview22Tests */,
-				42F06C07290A9F3B0004F10D /* tabview22UITests */,
+				42F06BED290A9F390004F10D /* iHealth */,
+				42F06BFD290A9F3B0004F10D /* iHealthTests */,
+				42F06C07290A9F3B0004F10D /* iHealthUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,10 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F06BF4290A9F390004F10D /* ContentView.swift in Sources */,
+				E6F9308F2911565600E78D91 /* ContentView0.swift in Sources */,
+				E6F29AEF2913E88300BCA594 /* CummCumment.swift in Sources */,
 				42F06C1C290AA8130004F10D /* ProfileView.swift in Sources */,
 				42F06C1E290AB05F0004F10D /* HomeView.swift in Sources */,
+				E6F29AED2913E2BC00BCA594 /* PopUpWindow.swift in Sources */,
 				42F06BF2290A9F390004F10D /* tabview22App.swift in Sources */,
 				42F06C20290AB0840004F10D /* CommunityView.swift in Sources */,
+				E6F930972911578C00E78D91 /* Verivication.swift in Sources */,
+				E6F9308D2911561200E78D91 /* SplashScreenView.swift in Sources */,
+				E6F930932911570A00E78D91 /* ContentViewLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +320,12 @@
 /* Begin PBXTargetDependency section */
 		42F06C00290A9F3B0004F10D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42F06BED290A9F390004F10D /* tabview22 */;
+			target = 42F06BED290A9F390004F10D /* iHealth */;
 			targetProxy = 42F06BFF290A9F3B0004F10D /* PBXContainerItemProxy */;
 		};
 		42F06C0A290A9F3B0004F10D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42F06BED290A9F390004F10D /* tabview22 */;
+			target = 42F06BED290A9F390004F10D /* iHealth */;
 			targetProxy = 42F06C09290A9F3B0004F10D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tabview22/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tabview22/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -492,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabview22.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tabview22";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iHealth";
 			};
 			name = Debug;
 		};
@@ -511,7 +537,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabview22.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tabview22";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iHealth";
 			};
 			name = Release;
 		};
@@ -552,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42F06BE9290A9F390004F10D /* Build configuration list for PBXProject "tabview22" */ = {
+		42F06BE9290A9F390004F10D /* Build configuration list for PBXProject "iHealth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42F06C10290A9F3B0004F10D /* Debug */,
@@ -561,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42F06C12290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22" */ = {
+		42F06C12290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42F06C13290A9F3B0004F10D /* Debug */,
@@ -570,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42F06C15290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22Tests" */ = {
+		42F06C15290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealthTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42F06C16290A9F3B0004F10D /* Debug */,
@@ -579,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42F06C18290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "tabview22UITests" */ = {
+		42F06C18290A9F3B0004F10D /* Build configuration list for PBXNativeTarget "iHealthUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42F06C19290A9F3B0004F10D /* Debug */,

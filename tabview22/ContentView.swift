@@ -32,9 +32,10 @@ struct ContentView: View {
                         }
                 }
                 .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.424, green: 0.589, blue: 0.582)/*@END_MENU_TOKEN@*/)
-                
+//                .background(.white)
+//                
             }
-              
+        .navigationBarBackButtonHidden(true)
             
         }
     }
